@@ -24,7 +24,7 @@ public class AsmUtilsTest {
 
         cls1.accept(cv, ClassReader.SKIP_DEBUG);
 
-        final File file = new File("/home/mao/adbi/t2.class");
+        final File file = new File("D:\\temp\\t2.class");
 
         try (
                 final FileOutputStream out = new FileOutputStream(file);
