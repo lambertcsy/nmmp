@@ -1,0 +1,7 @@
+class * extends android.app.Activity
+class * extends android.app.Application
+class * extends android.content.ContentProvider
+class * extends android.app.Service
+class * extends android.app.job.JobService
+class * extends android.app.Activity
+class * implements java.io.Serializable

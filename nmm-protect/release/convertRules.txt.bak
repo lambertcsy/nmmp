@@ -15,3 +15,12 @@ class B extends A {
 class C extends B {
 }
 //比如'class * extends A' 只会匹配B而不会再匹配C
+
+
+class * extends android.app.Activity
+class * extends android.app.Application
+class * extends android.content.ContentProvider
+class * extends android.app.Service
+class * extends android.app.job.JobService
+class * extends android.app.Activity
+class * implements java.io.Serializable
