@@ -17,6 +17,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -fvisibility=hidden ")
 
 #外部程序处理时替换 LIBNAME_PLACEHOLDER
 set(LIBNAME_PLACEHOLDER "nmmp")
+#设置dexmap库名称(默认"nmmp")
 
 
 add_library(${LIBNAME_PLACEHOLDER} SHARED ConstantPool.c ${GEN_SOURCES} )
