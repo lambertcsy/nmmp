@@ -42,7 +42,7 @@ public class ApkMain {
 
         final ApkFolders apkFolders = new ApkFolders(apk, outDir);
 
-
+        //生成的apk需要使用zipalign对齐（新版本已使用zipflinger处理apk,可以不用使用单独的zipalign）及apksigner签名才能安装使用
         final ApkProtect apkProtect = new ApkProtect.Builder(apkFolders)
                 .setInstructionRewriter(new RandomInstructionRewriter())
                 .setFilter(filterConfig)
